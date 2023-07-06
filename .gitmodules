@@ -1,0 +1,6 @@
+[submodule "Protocol"]
+	path = Protocol
+	url = https://github.com/xentellion/Protocol
+[submodule "Aspid"]
+	path = Aspid
+	url = https://github.com/xentellion/Aspid

@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  protocol:
+    build: ./Protocol
+    container_name: protocol
+    user: 1000:1000
+    volumes:
+      - type: bind
+        source: ./Data/Protocol
+        target: /Protocol/Data
+  aspid:
+    build: ./Aspid
+    container_name: aspid
+    user: 1000:1000
+    volumes:
+      - type: bind
+        source: ./Data/Aspid
+        target: /Aspid/Data
