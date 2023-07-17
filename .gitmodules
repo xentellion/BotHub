@@ -4,3 +4,6 @@
 [submodule "Aspid"]
 	path = Aspid
 	url = https://github.com/xentellion/Aspid
+[submodule "Frank"]
+	path = Frank
+	url = https://github.com/xentellion/Frank.git

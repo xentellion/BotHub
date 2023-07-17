@@ -16,3 +16,12 @@ services:
       - type: bind
         source: ./Data/Aspid
         target: /Aspid/Data
+  frank:
+    build: ./Frank
+    container_name: frank
+    user: 1000:1000
+    volumes:
+      - type: bind
+        source: ./Data/Frank
+        target: /Frank/Data
+        
