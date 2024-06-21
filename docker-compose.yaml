@@ -24,4 +24,12 @@ services:
       - type: bind
         source: ./Data/Frank
         target: /Frank/Data
+  strategist:
+    build: ./Strategist
+    container_name: strategist
+    user: 1000:1000
+    volumes:
+      - type: bind
+        source: ./Data/Strategist
+        target: /Strategist/Data
         
