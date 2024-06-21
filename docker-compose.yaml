@@ -32,4 +32,3 @@ services:
       - type: bind
         source: ./Data/Strategist
         target: /Strategist/Data
-        

@@ -8,5 +8,5 @@
 	path = Frank
 	url = https://github.com/xentellion/Frank.git
 [submodule "Strategist"]
-	path = 
+	path = Strategist
 	url = https://github.com/xentellion/Strategist.git
